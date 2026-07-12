@@ -1,16 +1,67 @@
-# React + Vite
+# Student Portfolio - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a simple **Student Portfolio** web application developed using **React** and **Vite**. It demonstrates the use of reusable functional components and props to build a single-page user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Reusable React components
+* Component-based architecture
+* Props used for passing data
+* Dynamic rendering of skills using an array
+* Built with Vite for fast development
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Components
 
-## Expanding the ESLint configuration
+* Header
+* About
+* Skills
+* Footer
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+```text
+student-portfolio/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── About.jsx
+│   │   ├── Skills.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
+## Technologies Used
+
+* React
+* Vite
+* JavaScript (ES6)
+* JSX
+* CSS
+
+## How to Run
+
+```bash
+npm install
+npm run dev
+```
+
+Then open the local development URL displayed in the terminal (usually `http://localhost:5173`).
+
+## Author
+
+**Maulik Vaghela**
