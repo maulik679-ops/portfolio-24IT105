@@ -1,4 +1,6 @@
-function Skills({ skillList }) {
+function Skills() {
+  const skillList = ["HTML", "CSS", "JavaScript", "React"];
+
   return (
     <section>
       <h2>Skills</h2>
@@ -8,7 +10,6 @@ function Skills({ skillList }) {
           <li key={skill}>{skill}</li>
         ))}
       </ul>
-
     </section>
   );
 }
